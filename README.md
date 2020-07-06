@@ -1,7 +1,7 @@
 # cyber_sec_tools
 Different pentesting tools I tried to make.
 
-you may run separate tools with "python <filename>
+you may run separate tools with "python \<filename\>"
 or
 to get a menu driven system run "python base.py"
 
