@@ -1,4 +1,4 @@
-# cyber_sec_tools
+# Network security tessting tools
 Different pentesting tools I tried to make.
 
 you may run separate tools with "python \<filename\>"
