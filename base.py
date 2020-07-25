@@ -7,14 +7,15 @@ print('\n')
 print("*"*100)
 print('\n')
 
-print("1.ARP Cache Poisoner")
-print("2.Prober")
-print("3.Simple Port Scan")
-print("4.Network Sniffer")
-print("5.Sub Domain Finder")
+print("1. ARP Cache Poisoner")
+print("2. Prober")
+print("3. Simple Port Scan")
+print("4. Network Sniffer")
+print("5. Sub Domain Finder")
 print('6. Advanced Port Scan')
 print('7. Ping of Death')
-print('8.Smurf Attack')
+print('8. Smurf Attack')
+print('9. Syn-Flood')
 
 choice=int(input())
 
@@ -36,5 +37,7 @@ elif choice==7:
     os.system("sudo python3 pingOfDeath.py")
 elif choice==8:
     os.system("sudo python3 smurf.py")
+elif choice==9:
+    os.system('sudo python3 synFlood.py')
 else:
     print("Invalid option selected")
