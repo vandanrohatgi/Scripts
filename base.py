@@ -16,6 +16,7 @@ print('6. Advanced Port Scan')
 print('7. Ping of Death')
 print('8. Smurf Attack')
 print('9. Syn-Flood')
+print('10.Deauth attack')
 
 choice=int(input())
 
@@ -39,5 +40,7 @@ elif choice==8:
     os.system("sudo python3 smurf.py")
 elif choice==9:
     os.system('sudo python3 synFlood.py')
+elif choice==10:
+    os.system('sudo python3 deauth.py')
 else:
     print("Invalid option selected")
